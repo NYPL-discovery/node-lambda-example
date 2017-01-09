@@ -11,7 +11,8 @@ exports.handler = (event, context, callback) => {
    headers: {
      'Content-Type': 'application/json',
      'Access-Control-Allow-Origin': '*'
-  }
+    }
+  })
 
   // or
 
@@ -22,6 +23,7 @@ exports.handler = (event, context, callback) => {
       'Content-Type': 'application/xml',
       'Access-Control-Allow-Origin': '*'
     }
+  })
 
 
 }
